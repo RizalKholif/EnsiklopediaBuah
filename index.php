@@ -40,12 +40,40 @@
     <!-- navbar -->
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
       <img class="my-0 mr-md-auto" src="img/logo.png" height="25px">
-      <nav class="my-2 my-md-0 mr-md-3 text-center">
-        <a class="p-2 text-dark" style="text-decoration: underline;" href="#">HOME</a>
-        <a class="p-2 text-dark" href="identitas.php">KATEGORI</a>
-        <a class="p-2 text-dark" href="rating.php">MANFAAT</a>
-        <a class="p-2 text-dark" href="transaksi.php">TENTANG KAMI</a>
-      </nav>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">HOME</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              KATEGORI
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">A</a>
+              <a class="dropdown-item" href="#">B</a>
+              <a class="dropdown-item" href="#">C</a>
+              <a class="dropdown-item" href="#">D</a>
+              <a class="dropdown-item" href="#">E</a>
+              <a class="dropdown-item" href="#">F</a>
+              <a class="dropdown-item" href="#">G</a>
+              <a class="dropdown-item" href="#">H</a>
+              <a class="dropdown-item" href="#">I</a>
+              <a class="dropdown-item" href="#">J</a>
+              <a class="dropdown-item" href="#">K</a>
+              <a class="dropdown-item" href="#">L</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">MANFAAT</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Kesehatan</a>
+            <a class="dropdown-item" href="#">Kecantikan</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TENTANG KAMI</a>
+        </li>
+      </ul>
     </div><!-- navbar -->
 
     <main role="main">
